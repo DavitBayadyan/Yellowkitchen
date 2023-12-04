@@ -1,0 +1,304 @@
+header{
+    width: 100%;
+    margin-bottom: 10px;
+    
+
+}
+header nav{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border-bottom: 1px solid #D4D7E5;
+    padding: 1% 4%;
+    width: 100%;
+    /* position: fixed;
+  
+   
+    z-index: 20;
+    background-color: rgb(255, 255, 255); */
+}
+.p0{
+    color: #9093A6;
+    font-weight: 600;
+}
+/* CSS for the fixed navigation bar */
+.fixed-nav {
+    position: fixed;
+    width: 100%;
+    z-index: 1000;
+    background-color: white;
+   
+  }
+  
+.right{
+    display: flex;
+    align-items: center;
+    width: 20%;
+    justify-content: space-between;
+} 
+.headerlogo{
+    display: flex;
+    align-items: center;
+    cursor: pointer;
+
+}
+.burg{
+   
+    padding: 3.5%;
+    border-radius: 50%;
+    box-shadow: 0px 0px 20px rgb(229, 229, 229);
+    cursor: pointer;
+}
+
+
+
+
+
+
+.main{
+    padding: 1% 4%;
+    display: flex;
+    justify-content: space-between;
+    overflow: hidden;
+}
+.main h1{
+    font-size: 56px;
+}
+.kub{
+    display: flex;
+}
+.kub div{
+    border: 3px solid rgb(244, 244, 83);
+    text-align: center;
+    padding: 3% 7%;
+    margin-right: 6%;
+    margin-top: 20%;
+}
+.kub div h5{
+    font-weight: 100;
+    margin: 0;
+}
+.kub div h3{
+    margin: 0;
+}
+.imgfood{
+    animation-name: img;
+    animation-duration: 1s;
+}
+.three{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 60%;
+    box-shadow: 0px 0px 30px rgb(224, 224, 224);
+    border-radius: 10px;
+   padding-left: 3.5%;
+}
+.three div{
+    display: flex;
+    align-items: center;
+    column-gap: 10px;
+
+}
+.deliverlog{
+    height: 50px;
+}
+@keyframes img {
+    from{
+        transform: translate(0,300px);
+
+    }
+    to{
+    transform: translate(0,0);
+
+    }
+}
+.slid{
+    padding: 1% 4%;
+
+}
+.resturan{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.butshow{
+    height: 40px;
+    align-items: center;
+    border: none;
+    border-radius: 4px;
+    padding: 1% 1.5%;
+    color: #9093A6;
+    background-color: #F2F4FA;
+}
+/* header.css */
+.slider-item{
+    margin-left: -10px;
+    margin: 0 auto;
+}
+
+.slidimg{
+    margin:  0 auto;
+}
+   
+
+
+
+
+
+
+/* media */
+@media screen and (max-width: 1350px){
+    .slidimg{
+        width: 250px ;
+        height: 300px;
+    }
+    @media screen and (max-width: 1024px){
+        .slidimg{
+            width: 310px ;
+            height: 400px;
+        }
+    }
+    @media screen and (max-width: 925px){
+        .slidimg{
+            width: 250px ;
+        height: 300px;
+        }
+    }
+    @media screen and (max-width: 768px){
+        .slidimg{
+            width: 310px ;
+            height: 400px;
+        }
+    }
+    @media screen and (max-width: 625px){
+        .slidimg{
+            width: 250px ;
+            height: 300px;
+        }
+    }
+    @media screen and (max-width: 500px){
+        .slidimg{
+            width: 240px ;
+            height: 250px;
+        }
+    }
+    @media screen and (max-width: 475px){
+        .slidimg{
+            width: 230px ;
+            height: 250px;
+        }
+    }
+    @media screen and (max-width: 450px){
+        .slidimg{
+            width: 215px ;
+            height: 250px;
+        }
+    }
+    @media screen and (max-width: 430px){
+        .slidimg{
+            width: 205px ;
+            height: 250px;
+        }
+    }
+    @media screen and (max-width: 415px){
+        .slidimg{
+            width: 205px ;
+            height: 250px;
+        }
+    }
+}
+@media screen and (max-width: 1175px)  {
+    .main h1{
+        font-size: 40px;
+    }
+    .kub div{
+        padding: 2% 5%;
+        
+    }
+    .kub div h5{
+        margin: 0;
+    }
+    .kub div h3{
+        margin: 0;
+        font-size: 15px;
+    }
+    .imgfood{
+        width: 700px;
+        height: 600px;
+    }
+    @media screen and (max-width: 1050px){
+       .main{
+        padding: 1% 2%;
+       }
+       .imgfood{
+        width: 500px;
+        height: 400px;
+    }
+    .three{
+        font-size: 12px;
+    }
+        
+    }
+    @media screen and (max-width: 950px){
+        .right{
+            width: 30%;
+        }
+    }
+    @media screen and (max-width: 850px){
+        .deliverlog img{
+            height: 30px;
+        }
+        .three{
+            font-size: 10px;
+        }
+    }
+
+    @media screen and (max-width: 710px){
+        .main h1{
+            font-size: 30px;
+        }
+        .imgfood{
+            width: 400px;
+            height: 300px;
+        }
+        .kub div{
+            padding: 1% 3%;
+            
+        }
+        .kub div h5{
+            font-size: 10px;
+        }
+        .kub div h3{
+            font-size: 12px;
+        }
+    }
+    @media screen and (max-width: 670px){
+        .three{
+            width: 80%;
+        }
+    }
+    @media screen and (max-width: 570px){
+        .main h1{
+            font-size: 20px;
+        }
+        .right{
+            width: 40%;
+        }
+        .imgfood{
+            width: 300px;
+            height: 200px;
+        }
+    }
+    @media screen and (max-width: 450px){
+        .three{
+            width: 90%;
+        }
+        .navlogo{
+            width: 180px;
+        }
+        .right{
+            width: 45%;
+        }
+    }
+}

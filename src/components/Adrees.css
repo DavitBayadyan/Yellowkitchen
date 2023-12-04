@@ -1,0 +1,151 @@
+.adres {
+    background-color: #F2F4FA;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    padding: 4% 0;
+}
+
+.adres input {
+    outline: none;
+    border: none;
+    padding: 4%;
+}
+
+.inputtdiv {
+    display: flex;
+    align-items: center;
+    background-color: white;
+    padding: 2%;
+    width: 250px;
+    margin-right: 5px;
+    border-radius: 5px;
+}
+
+.adres input::placeholder {
+    color: #9093A6;
+    font-size: 17px;
+}
+
+h1 {
+    font-weight: 400;
+    color: #3F4255;
+}
+
+p {
+    color: #3F4255;
+
+}
+
+.butt {
+    background-color: #FFE145;
+    color: #B79C10;
+    border: none;
+    border-radius: 5px;
+    font-size: 15px;
+    padding: 0 3.5%;
+    cursor: pointer;
+}
+
+.obshi {
+    display: flex;
+}
+
+.butshow {
+    height: 40px;
+    align-items: center;
+    border: none;
+    border-radius: 4px;
+    padding: 1% 1.5%;
+    color: #9093A6;
+    background-color: #F2F4FA;
+}
+
+
+.text {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 80%;
+    margin: 0 auto;
+}
+
+/* .image-slide {
+    margin-right: 0px; 
+  }
+  */
+/* The last slide shouldn't have a right margin to avoid extra spacing */
+/* .image-slide:last-child {
+    margin-right: 0;
+} */
+
+ .slick-prev {
+    background-color:rgba(255, 255, 255, 0);
+    /* Set the background color to black */
+    color: rgb(204, 204, 204);
+    /* Text color */
+    /* border-radius: 50%; */
+    /* box-shadow: 0px 0px 30px rgb(224, 224, 224); */
+    border-radius: 50%;
+    width: 30px;
+    /* Adjust the width and height as needed */
+    height: 30px;
+   
+    z-index: 100;
+    /* margin-left: 20px; */
+   
+}
+
+/* Style for the custom next arrow */
+.slick-next {
+    /* background-color:rgba(255, 255, 255, 0); */
+
+    /* Set the background color to black */
+    color: rgb(0, 0, 0);
+    /* Text color */
+    border-radius: 50%;
+    /* box-shadow: 0px 0px 30px rgb(224, 224, 224); */
+    width: 30px;
+    /* Adjust the width and height as needed */
+    height: 30px;
+
+
+}
+
+.sliddiv {
+    width: 84%;
+    margin: 0 auto;
+}
+.image-slide{
+    margin: 0 auto;
+ }
+.image-slide img{
+   margin: 0 auto;
+}
+.slick-prev:before, .slick-next:before{
+    color: black;
+}
+.back{
+    width: 100%;
+   
+}
+.back img{
+    width: 100%;
+}
+.padingdiv{
+    padding: 2.5%;
+}
+.padingdiv img{
+    width: 100%;
+}
+
+
+/* media */
+
+@media screen and (max-width: 700px)  {
+    .adres {
+        flex-wrap: wrap;
+        row-gap: 50px;
+        text-align: center;
+    }
+}

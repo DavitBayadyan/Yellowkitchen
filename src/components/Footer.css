@@ -1,0 +1,166 @@
+.yellow{
+    color: #313030;
+    margin-bottom: 3%;
+}
+.yellow span {
+    color: #9093A6;
+}
+.all {
+    padding: 1% 4%;
+}
+.photos{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+
+
+/* footer */
+
+footer {
+    background-color: #3F4255;
+    padding: 2% 4% 0 4%;
+    margin-top: 5%;
+    color: white;
+}
+.gic{
+    width: 30%;
+}
+.logoo{
+    padding: 0 15% 15% 0;
+    border-bottom: 1px solid #D4D7E5;
+}
+.footall{
+    display: flex;
+    justify-content: space-between;
+}
+.uls{
+    display: flex;
+    column-gap: 40px;
+    margin-right: 7%;
+}
+.uls li{
+    margin-bottom: 3%;
+}
+.apps{
+    margin-top: 10%;
+}
+.app1{
+    margin-right: 5%;
+}
+.footall ul{
+    list-style: none;
+    margin: 0;
+    font-size: 19px;
+    
+}
+.dark{
+    font-weight: 700;
+}
+
+.footend {
+    margin-top: 8%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.end{
+    width: 30%;
+    display: flex;
+    justify-content: space-between;
+}
+.footend div p {
+    color: white
+}
+
+.twiter{
+    margin-right: 35px;
+}
+
+
+@media screen and (max-width:1330px) {
+    .photos{
+        flex-wrap: wrap;
+        gap: 30px;
+    }
+    .gic{
+        width: 15%;
+    }
+    @media screen and (max-width:1150px) {
+        .uls ul{
+            font-size: 15px;
+        }
+        .end{
+            width: 60%;
+           
+        }
+    }
+    @media screen and (max-width:970px) {
+        .photos{
+            justify-content: center;
+        }
+        .uls{
+            margin-right: 0;
+        }
+    }
+    @media screen and (max-width:850px) {
+        .uls ul{
+            font-size: 11px;
+        }
+        .logoo img{
+            width: 120px;
+        }
+        .apps img{
+            height: 20px;
+            width: 50px;
+        }
+        .uls{
+            column-gap: 10px;
+        }
+    }
+    @media screen and (max-width:750px) {
+        .photos img{
+            width: 200px;
+            height: 200px;
+        }
+        .end{
+            width: 60%;
+            font-size: 11px;
+        }
+        .log img{
+            width: 20px;
+            height: 20px;
+        }
+        
+    }
+    @media screen and (max-width:560px){
+        .logoo img{
+            width: 90px;
+        }
+        .end{
+            width: 70%;
+            font-size: 9px;
+        }
+        .uls ul{
+            font-size: 9px;
+        }
+    }
+    @media screen and (max-width:500px) {
+        .photos img{
+            width: 100px;
+            height: 100px;
+        }
+        .yellow{
+            font-size: 20px;
+        }
+    }
+    @media screen and (max-width:450px) {
+        .logoo img{
+            width: 70px;
+        }
+        .uls ul{
+            font-size: 8px;
+        }
+    }
+}

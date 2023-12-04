@@ -1,0 +1,109 @@
+/* Sidebar.css */
+.sidebar {
+    width: 19%;
+    height: 90.4%;
+    background-color: #ffffff;
+    position: fixed;
+    bottom: 0;
+    right: -1055px;
+    /* transition: right 0.3s; */
+    z-index: 999;
+
+  }
+  
+  .sidebar.open {
+    right: 0;
+  }
+  .overlay {
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    width: 81%;
+    height: 90.4%;
+    background-color: #808080;
+    z-index: 999;
+    pointer-events: auto;
+    
+
+  }
+  .paddiv{
+    padding: 10% 10%;
+  }
+  .call{
+    display: flex;
+    align-items:start;
+    column-gap: 10px;
+  }
+  .call img{
+    margin-top: 10px;
+  }
+  .call p{
+    color: #9093A6;
+    margin-bottom: 25%;
+
+  }
+  .h3{
+   color:  #757679 !important;
+   border-bottom: none !important;
+   font-weight: 700 !important;
+  }
+  .paddiv h3{
+    color: #9093A6;
+    padding-bottom: 8%;
+    padding-top: 8%;
+    border-bottom:1px solid #F2F4FA;
+    font-weight: 400;
+    cursor: pointer;
+  }
+ .border{
+    border-top:1px solid #F2F4FA;
+ }
+ .pp{
+    text-align: end;
+    font-size: 12px;
+    font-weight: 700;
+    color: #9093A6;
+    margin-top: 20px;
+ }
+
+
+
+ @media screen and (max-width: 1000px)  {
+  .sidebar {
+    width: 30%;
+  }
+  
+  .overlay {
+
+    width: 70%;
+    
+
+  }
+}
+@media screen and (max-width: 830px)  {
+  .sidebar {
+    height: 92%;
+
+  }
+  .overlay {
+    height: 92%;
+    
+
+  }
+}
+@media screen and (max-width: 700px)  {
+  .sidebar {
+    width: 50%;
+  }
+  .overlay {
+    width: 50%;
+  }
+}
+@media screen and (max-width: 550px)  {
+  .sidebar {
+    height: 93%;
+  }
+  .overlay {
+    height: 93%;
+  }
+}
